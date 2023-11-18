@@ -8,9 +8,7 @@ This suite of tests is specifically designed to validate and test features on th
 
 ![JavaSeleniumCucumber](https://github.com/carlosvagnoni/JavaSeleniumCucumber/assets/106275103/73d6bb26-c86a-4ddc-8e1b-a9c376de3796)
 
-## Tabla de Contenidos 📑
-- [Testing demoblaze.com Features](#testing-demoblazecom-features-)
-- [Tabla de Contenidos](#tabla-de-contenidos-)
+## Table of Contents 📑
 - [Requirements](#requirements-)
 - [Folder Structure](#folder-structure-)
 - [Installation](#installation-)
