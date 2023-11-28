@@ -9,14 +9,14 @@ This suite of tests is specifically designed to validate and test features on th
 ![JavaSeleniumCucumber](https://github.com/carlosvagnoni/JavaSeleniumCucumber/assets/106275103/73d6bb26-c86a-4ddc-8e1b-a9c376de3796)
 
 ## Table of Contents 📑
-- [Requirements](#requirements-)
-- [Folder Structure](#folder-structure-)
-- [Installation](#installation-)
-- [Configuration](#configuration-)
-- [Test Execution](#test-execution-)
-- [Contact](#contact-)
+- [Requirements](#requirements)
+- [Folder Structure](#folder-structure)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Test Execution](#test-execution)
+- [Contact](#contact)
 
-## Requirements 📋
+## <a id="requirements"></a> Requirements 📋
 
 - JDK 21
 - Lombok 1.18.30
@@ -24,7 +24,7 @@ This suite of tests is specifically designed to validate and test features on th
 - Cucumber 7.14.0
 - Webdriver Manager 5.6.2
 
-## Folder Structure 📂
+## <a id="folder-structure"></a> Folder Structure 📂
 
 - **config.json:** Configuration file for variable data.
 - **pom.xml:** Maven configuration file specifying project dependencies.
@@ -65,7 +65,7 @@ This suite of tests is specifically designed to validate and test features on th
 
 - **log4j.properties:** Logging configuration file using Log4j.
 
-## Installation 🛠️
+## <a id="installation"></a> Installation 🛠️
 
 1. Clone this repository:
 
@@ -80,12 +80,12 @@ This suite of tests is specifically designed to validate and test features on th
     mvn clean compile
     ```
 
-## Configuration ⚙️
+## <a id="configuration"></a> Configuration ⚙️
 
 - Make sure you have a browser installed and configured in the script (Chrome, Edge, or Firefox).
 - You can configure the config.json file to adjust parameters such as the base URL(url) or the desired browser to use(navigator).
 
-## Test Execution ▶️
+## <a id="test-execution"></a> Test Execution ▶️
 
 Run all the tests:
 
@@ -104,7 +104,7 @@ start "" "target\reports\demoblaze.html"
 - Set up the respective environment variables beforehand.
 - On Windows environments, you can directly execute the `run.bat` file.
 
-## Contact 📧
+## <a id="contact"></a> Contact 📧
 
 If you have any questions or suggestions, feel free to contact me through my social media accounts.
 
