@@ -16,7 +16,7 @@ This suite of tests is specifically designed to validate and test features on th
 - [Test Execution](#test-execution)
 - [Contact](#contact)
 
-## <a id="requirements"></a> Requirements 📋
+## <a id="requirements">Requirements 📋</a>
 
 - JDK 21
 - Lombok 1.18.30
@@ -24,7 +24,7 @@ This suite of tests is specifically designed to validate and test features on th
 - Cucumber 7.14.0
 - Webdriver Manager 5.6.2
 
-## <a id="folder-structure"></a> Folder Structure 📂
+## <a id="folder-structure">Folder Structure 📂</a>
 
 - **config.json:** Configuration file for variable data.
 - **pom.xml:** Maven configuration file specifying project dependencies.
@@ -65,7 +65,7 @@ This suite of tests is specifically designed to validate and test features on th
 
 - **log4j.properties:** Logging configuration file using Log4j.
 
-## <a id="installation"></a> Installation 🛠️
+## <a id="installation">Installation 🛠️</a>
 
 1. Clone this repository:
 
@@ -80,12 +80,12 @@ This suite of tests is specifically designed to validate and test features on th
     mvn clean compile
     ```
 
-## <a id="configuration"></a> Configuration ⚙️
+## <a id="configuration">Configuration ⚙️</a>
 
 - Make sure you have a browser installed and configured in the script (Chrome, Edge, or Firefox).
 - You can configure the config.json file to adjust parameters such as the base URL(url) or the desired browser to use(navigator).
 
-## <a id="test-execution"></a> Test Execution ▶️
+## <a id="test-execution">Test Execution ▶️</a>
 
 Run all the tests:
 
@@ -104,7 +104,7 @@ start "" "target\reports\demoblaze.html"
 - Set up the respective environment variables beforehand.
 - On Windows environments, you can directly execute the `run.bat` file.
 
-## <a id="contact"></a> Contact 📧
+## <a id="contact">Contact 📧</a> 
 
 If you have any questions or suggestions, feel free to contact me through my social media accounts.
 
