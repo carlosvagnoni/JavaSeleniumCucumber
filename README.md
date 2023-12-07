@@ -1,6 +1,9 @@
-# Automated Web Testing with Java, Selenium, and Cucumber 🤖☕
+# Automated Web Testing with Java, Selenium, and Cucumber
+![Static Badge](https://img.shields.io/badge/Java-logo?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=rgb(229%2C%2031%2C%2036)&color=rgb(22%2C%2027%2C%2034))
+![Static Badge](https://img.shields.io/badge/Selenium-logo?style=for-the-badge&logo=selenium&logoColor=white&labelColor=rgb(0%2C%20174%2C%200)&color=rgb(22%2C%2027%2C%2034))
+![Static Badge](https://img.shields.io/badge/Cucumber-logo?style=for-the-badge&logo=cucumber&logoColor=black&labelColor=rgb(35%2C%20217%2C%20108)&color=rgb(22%2C%2027%2C%2034))
 
-This project provides a structure and tools for automated web testing using Java, Selenium, and Cucumber, following Behavior-Driven Development (BDD) best practices and employing the Page Object Model design pattern.
+This project offers a framework and tools for automated web testing using Java, Selenium, and Cucumber, following Behavior-Driven Development (BDD) best practices and employing the Page Object Model design pattern.
 
 ## Testing demoblaze.com Features 🧪
 
