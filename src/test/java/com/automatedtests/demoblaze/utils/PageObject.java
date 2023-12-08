@@ -152,19 +152,27 @@ public class PageObject {
     public <T> T handleException(Supplier<T> action) {
         try {
             return action.get();
-        } catch (NoSuchElementException | StaleElementReferenceException e) {
-            logging.debug("Element not found or not visible.", e);
+        } catch (NoSuchElementException e) {
+            logging.debug("Element not found.", e);
+            throw new NoSuchElementException("Element not found.", e);
+        } catch (StaleElementReferenceException e) {
+            logging.debug("Element not visible.", e);
+            throw new StaleElementReferenceException("Element not visible.", e);
         } catch (ElementClickInterceptedException e) {
             logging.debug("Element click intercepted.", e);
+            throw new ElementClickInterceptedException("Element click intercepted.", e);
         } catch (ElementNotInteractableException e) {
             logging.debug("Element not interactable.", e);
+            throw new ElementNotInteractableException("Element not interactable.", e);
         } catch (TimeoutException e) {
             logging.debug("Timeout expired.", e);
+            throw new TimeoutException("Timeout expired.", e);
         } catch (NoAlertPresentException e) {
             logging.debug("Alert not found.", e);
+            throw new NoAlertPresentException("Alert not found.", e);
         } catch (WebDriverException e) {
             logging.debug("WebDriver exception occurred.", e);
+            throw new WebDriverException("WebDriver exception occurred.", e);
         }
-        return null;
     }
 }
