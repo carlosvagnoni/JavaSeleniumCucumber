@@ -11,4 +11,4 @@ Feature: Demoblaze Sign Up
     Then the user should be registered successfully.
     Examples:
       | username | password |
-      | admincv7  | admincv  |
+      | admincv  | admincv  |

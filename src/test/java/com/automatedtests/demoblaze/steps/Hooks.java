@@ -28,7 +28,7 @@ public class Hooks {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        driver = new Drivers(config.getNavigator()).driver;
+        driver = new Drivers(config.getNavigator(), config.isHeadlessMode()).driver;
         driver.manage().window().maximize();
         SignupSteps.currentScenario = scenario;
         LoginSteps.currentScenario = scenario;

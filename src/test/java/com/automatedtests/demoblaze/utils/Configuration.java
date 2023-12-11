@@ -17,6 +17,10 @@ public class Configuration {
     @Getter
     @Setter
     private String navigator;
+	
+	@Getter
+    @Setter
+    private boolean isHeadlessMode;
 
     /**
      * Loads a Configuration object from a JSON file.
