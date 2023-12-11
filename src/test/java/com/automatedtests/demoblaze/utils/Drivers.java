@@ -63,6 +63,7 @@ public class Drivers {
         ChromeOptions options = new ChromeOptions();
         if (isHeadless) {
             options.addArguments("--headless");
+            options.addArguments("--no-sandbox");
         }
         return new ChromeDriver(options);
     }
@@ -73,6 +74,7 @@ public class Drivers {
         EdgeOptions options = new EdgeOptions();
         if (isHeadless) {
             options.addArguments("--headless");
+            options.addArguments("--no-sandbox");
         }
         return new EdgeDriver(options);
     }
@@ -83,6 +85,7 @@ public class Drivers {
         FirefoxOptions options = new FirefoxOptions();
         if (isHeadless) {
             options.addArguments("--headless");
+            options.addArguments("--no-sandbox");
         }
         return new FirefoxDriver(options);
     }
