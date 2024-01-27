@@ -1,6 +1,5 @@
 package com.automatedtests.demoblaze.utils;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -59,7 +58,6 @@ public class Drivers {
 
     private WebDriver chromeDriver() {
         // Creating an instance of Chrome
-        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         if (isHeadless) {
             options.addArguments("--headless");
@@ -70,7 +68,6 @@ public class Drivers {
 
     private WebDriver edgeDriver() {
         // Creating an instance of Microsoft Edge
-        WebDriverManager.edgedriver().setup();
         EdgeOptions options = new EdgeOptions();
         if (isHeadless) {
             options.addArguments("--headless");
@@ -81,7 +78,6 @@ public class Drivers {
 
     private WebDriver firefoxDriver() {
         // Creating an instance of Firefox
-        WebDriverManager.firefoxdriver().setup();
         FirefoxOptions options = new FirefoxOptions();
         if (isHeadless) {
             options.addArguments("--headless");
