@@ -25,7 +25,6 @@ This suite of tests is specifically designed to validate and test features on th
 - Lombok 1.18.30
 - Selenium 4.15.0
 - Cucumber 7.14.0
-- Webdriver Manager 5.6.2
 
 ## <a id="folder-structure">Folder Structure 📂</a>
 

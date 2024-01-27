@@ -1,10 +1,10 @@
 @echo off
 
 echo Compiling the project...
-call mvn clean compile
+call mvn clean test-compile
 
 echo Running automated tests...
-call mvn test
+call mvn surefire:test
 
 echo Opening report...
 start "" "target\reports\demoblaze.html"
